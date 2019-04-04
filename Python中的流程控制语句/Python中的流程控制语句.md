@@ -61,30 +61,30 @@ for i in range(2,10):
 ```python
 # 质数定义为在大于1的自然数中，除了1和它本身以外不再有其他因数。
 for i in range(2,10):
+    isPrime = True
     for j in range(2,i):
         if i%j == 0:
             print(i,"=",j,"*",i//j)
+            isPrime = False
             continue
     else:
-        print(i,"is a prime number")
+        if isPrime:
+            print(i,"is a prime number")
 ```
 输出结果如下：
 ```python
-============== RESTART: C:/Python3/Python37/testPrimeNumber.py ==============
+>>> 
+ RESTART: C:\Users\lenovopc\Desktop\All My Life\Python\Python中的流程控制语句\Code\testPrimeNumber.py 
 2 is a prime number
 3 is a prime number
 4 = 2 * 2
-4 is a prime number
 5 is a prime number
 6 = 2 * 3
 6 = 3 * 2
-6 is a prime number
 7 is a prime number
 8 = 2 * 4
 8 = 4 * 2
-8 is a prime number
 9 = 3 * 3
-9 is a prime number
 >>> 
 ```
 这里做下总结：  
