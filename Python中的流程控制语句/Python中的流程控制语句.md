@@ -73,8 +73,6 @@ for i in range(2,10):
 ```
 输出结果如下：
 ```python
->>> 
- RESTART: C:\Users\lenovopc\Desktop\All My Life\Python\Python中的流程控制语句\Code\testPrimeNumber.py 
 2 is a prime number
 3 is a prime number
 4 = 2 * 2
@@ -84,8 +82,7 @@ for i in range(2,10):
 7 is a prime number
 8 = 2 * 4
 8 = 4 * 2
-9 = 3 * 3
->>> 
+9 = 3 * 3 
 ```
 这里做下总结：  
 **break**  
